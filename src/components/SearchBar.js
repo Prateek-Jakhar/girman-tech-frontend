@@ -20,7 +20,7 @@ function SearchBar({ onSearch, searchTerm }) {
         placeholder="Search"
         value={input}
         onChange={handleInput}
-        className="w-full px-4 py-2 border rounded-lg shadow focus:outline-none focus:ring focus:ring-blue-300"
+        className="w-full mt-6 px-4 py-2 border rounded-lg shadow focus:outline-none focus:ring focus:ring-blue-300"
       />
     </div>
   );
